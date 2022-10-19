@@ -11,7 +11,7 @@ This contains the postman collection.
 
 SERVER_HOSTNAME=locahost  
 SERVER_PORT=1337  
-APIKEY=AIzaSyB9P8pFQqOIxu3Rfq-v8FelykLGgYO-Uig  
+APIKEY= Replace this with the API Key I provided John
 DB_HOST=db  
 DB_USER=postgres  
 DATABASE=postgres  
