@@ -24,8 +24,10 @@ WAIT_HOST=db:5432
 
 # Launching The Application
 
-To Launch the application, run docker-compose up -d --build
+To Launch the application, run docker-compose up -d --build  
 At this point the application will be running and ready to go,   
-so long as you have docker installed and prepared the .env file appropriately  
+so long as you have docker installed and prepared the .env file appropriately.  
+
+To Close the application, run docker-compose down -v  
 
 
