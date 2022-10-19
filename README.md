@@ -15,3 +15,5 @@ DB_POOL_SIZE=2
 DB_POOL_CLIENT_IDLE_TIMEOUT=10000  
 DB_POOL_CLIENT_CONNECTION_TIMEOUT=2000  
 WAIT_HOST=db:5432  
+
+All additional postman routes are included seperately in a zip file  
