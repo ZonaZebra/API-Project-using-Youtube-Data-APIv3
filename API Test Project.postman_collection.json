@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "b16a0d6b-5d40-40eb-8254-297953c0e1ee",
+		"name": "API Test Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23095757"
+	},
+	"item": [
+		{
+			"name": "Basic Health Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1337/ping",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query Youtube for Tech Videos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1337/youtube?search_query=mkbhd",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"youtube"
+					],
+					"query": [
+						{
+							"key": "search_query",
+							"value": "mkbhd"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SQL Find All Results in DB",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:1337/db/findAll",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"db",
+						"findAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SQL Add New Video/Channel Entry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:1337/db/addVideo?title=Banana Pudding&channels=Food Central Inc.",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"db",
+						"addVideo"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Banana Pudding"
+						},
+						{
+							"key": "channels",
+							"value": "Food Central Inc."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SQL Update Video/Channel Entry in DB",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:1337/db/updateVideo?title=Reviewing MKBHD Videos!&new_channels=Taco Inc.&new_title=Tacos Trucks on Tuesday",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"db",
+						"updateVideo"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Reviewing MKBHD Videos!"
+						},
+						{
+							"key": "new_channels",
+							"value": "Taco Inc."
+						},
+						{
+							"key": "new_title",
+							"value": "Tacos Trucks on Tuesday"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SQL Delete Video/Channel Entry by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:1337/db/deleteVideo?title=Marques Brownlee",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"db",
+						"deleteVideo"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Marques Brownlee"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
