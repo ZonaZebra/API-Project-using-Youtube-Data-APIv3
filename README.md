@@ -4,7 +4,7 @@
 
 After opening the zip make a .env file in the project folder and copy in the below information   
 
-All Postman routes are included seperately in a zip file inside the project folder.  
+All Postman routes are included seperately in a json file inside the repository.  
 This contains the postman collection.  
 
 # .env File Information
