@@ -1,14 +1,14 @@
 # API-Project-using-Youtube-Data-APIv3
 
-# Initial Setup Steps
+## Initial Setup Steps
 
 After opening the zip make a .env file in the project folder and copy in the below information   
 
 All Postman routes are included seperately in a json file inside the repository.  
-This contains the postman collection.  
+This contains the **postman** collection.  
 
-# .env File Information
-
+## .env File Information
+```
 SERVER_HOSTNAME=locahost  
 SERVER_PORT=1337  
 APIKEY= Replace this with the API Key I provided John
@@ -21,13 +21,14 @@ DB_POOL_SIZE=2
 DB_POOL_CLIENT_IDLE_TIMEOUT=10000  
 DB_POOL_CLIENT_CONNECTION_TIMEOUT=2000  
 WAIT_HOST=db:5432  
-
+```
 # Launching The Application
 
-To Launch the application, run docker-compose up -d --build  
-At this point the application will be running and ready to go,   
-so long as you have docker installed and prepared the .env file appropriately.  
+1. To Launch the application:
+  ```run docker-compose up -d --build  ```
+  At this point the application will be running and ready to go, so long as you have docker installed and prepared the .env file appropriately.  
 
-To Close the application, run docker-compose down -v  
+2. To Close the application:
+  ```run docker-compose down -v  ```
 
 
