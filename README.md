@@ -1,4 +1,4 @@
-# API-Project-using-Youtube-Data-APIv3
+# Basic Node, Express, TS API Project utilizing the Youtube Data API
 
 ## Initial Setup Steps
 
