@@ -26,6 +26,7 @@ WAIT_HOST=db:5432
 
 1. To Launch the application:
   ```run docker-compose up -d --build  ```
+  
   At this point the application will be running and ready to go, so long as you have docker installed and prepared the .env file appropriately.  
 
 2. To Close the application:
